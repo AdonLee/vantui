@@ -180,7 +180,7 @@ export function FormItem(props: FormItemProps) {
       <View
         id={id}
         className={`${prefixCls} ${prefixCls}-${layout} ${className} ${
-          borderBottom ? `vant-form-formItem-bottom` : ''
+          borderBottom ? `vant-form-formItem-bottom-border` : ''
         }`}
       >
         <Label
